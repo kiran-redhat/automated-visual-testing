@@ -32,7 +32,7 @@ module.exports = {
         "testSuiteName": "automated-visual-testing"
     },
     "engine": "chrome",
-    "chromePath": "chrome-headless-lambda-linux-x64-v63/headless_shell",
+    "chromePath": "<<Replace this with chrome browser executable or headless_shell>>",
     "gotoTimeout": 360000,
     "waitTimeout": 90000,
     "report": ["CLI", "browser", "CI"],
