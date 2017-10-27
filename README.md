@@ -14,3 +14,5 @@ Steps:
 4. See results in backstop_data/html/index.html
 
 
+P.S: If you are using Amazon Linux, you may use headless_shell for chrome from https://github.com/kiran-redhat/serverless-chrome/blob/master/chrome/chrome-headless-lambda-linux-x64.tar.gz
+
