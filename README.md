@@ -4,6 +4,9 @@ Sample automated-visual-testing project with chrome. This is no different to htt
 
 Add test cases in tests folder, see sample1.js & sample2.js as an example.
 
+Pre-condition: 
+Change 'chromePath' in config.js to chrome executable in your system or working directory
+
 Steps:
 1. Go to cloned folder and do 'npm i'  - This will install all required dependencies
 2. Run ./generateRefs.sh  - To generate reference images
