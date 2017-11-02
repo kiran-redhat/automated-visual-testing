@@ -23,7 +23,7 @@ module.exports = {
         "engine_scripts": "./tests",
         "ci_report": "./backstop_data/ci_report"
     },
-    "fileNameTemplate": "{configId}_{scenarioLabel}_{viewportLabel}",
+    "fileNameTemplate": "{configId}_{scenarioLabel}_{selectorLabel}_{viewportLabel}",
     "onBeforeScript": "onBefore.js",
     "onReadyScript": "onReady.js",
     "scenarios": allScenarios,
